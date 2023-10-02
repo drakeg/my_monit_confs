@@ -1,0 +1,2 @@
+check program ssl_cert_check with path /path/to/check_ssl_cert.sh
+  if status != 0 then alert
